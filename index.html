@@ -49,6 +49,91 @@
         <article class="mb-20">
             <header class="mb-12">
                 <div class="flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-3 uppercase tracking-wider">
+                    <span>AI Inference</span>
+                    <span>•</span>
+                    <span>June 2026</span>
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    Diffusion Gemma 4 26B on 16GB GPU: OpenClaw Agent Breakthrough
+                </h2>
+                <p class="text-xl text-gray-600">
+                    Major breakthrough: Running a diffusion-optimized Gemma 4 26B model on a single 16GB Nvidia GPU as the primary reasoning agent for OpenClaw personal AI assistant.
+                </p>
+            </header>
+
+            <div class="prose prose-blue max-w-none text-gray-700 space-y-6">
+                <div class="bg-blue-50 border border-blue-100 rounded-lg p-6 mb-8 shadow-sm">
+                    <h4 class="font-bold text-blue-900 mb-2 font-mono">Status: Production Ready 🚀</h4>
+                    <p class="text-blue-800 text-sm">We have achieved a significant breakthrough in local AI deployment. The diffusion-tuned Gemma 4 26B model is now fully operational on consumer 16GB Nvidia GPU hardware, serving as the core agent backend for OpenClaw. This enables sophisticated autonomous workflows without relying on massive cloud infrastructure.</p>
+                </div>
+
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">What We’ve Achieved</h3>
+                <ul class="list-disc pl-6 space-y-2 mb-8">
+                    <li><strong>Diffusion-Powered Inference:</strong> Applied cutting-edge diffusion optimization techniques to efficiently run the 26B parameter model within the tight 16GB VRAM constraints, delivering high-quality, iterative reasoning with excellent token throughput.</li>
+                    <li><strong>OpenClaw Agent Integration:</strong> Seamlessly wired the model into OpenClaw as the primary agent. The system now leverages advanced 26B-scale reasoning for complex multi-step tasks, tool orchestration, GUI interactions, and persistent autonomous operations across messaging platforms.</li>
+                    <li><strong>Memory &amp; Compute Efficiency:</strong> Implemented hybrid GPU/CPU offloading and diffusion-step scheduling that prevents OOM while maximizing utilization of the 16GB Blackwell-class GPU and existing 32GB system RAM.</li>
+                    <li><strong>Validated End-to-End:</strong> Full agent loops tested successfully — from natural language commands via OpenClaw to model inference, tool execution, and response delivery — proving production viability for personal AI agents.</li>
+                </ul>
+
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">The Final Technical Stack</h3>
+                <div class="overflow-x-auto mb-8">
+                    <table class="min-w-full text-left border-collapse border border-gray-200 shadow-sm rounded-lg overflow-hidden">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-6 py-3 border-b border-gray-200 font-semibold text-gray-700">Layer</th>
+                                <th class="px-6 py-3 border-b border-gray-200 font-semibold text-gray-700">Specification</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 bg-white">
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-gray-900">Model</td>
+                                <td class="px-6 py-4">Diffusion Gemma 4 26B (Optimized for Agentic Workflows)</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-gray-900">Agent Logic</td>
+                                <td class="px-6 py-4 text-blue-600">OpenClaw — Primary Autonomous Agent</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-gray-900">GPU / VRAM</td>
+                                <td class="px-6 py-4">16GB Nvidia (Blackwell Architecture, e.g. RTX 5060 Ti)</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-gray-900">Inference Backend</td>
+                                <td class="px-6 py-4">Ollama + Custom Diffusion Pipeline</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-gray-900">System Memory</td>
+                                <td class="px-6 py-4">32GB DDR3 (Hybrid Offload &amp; KV Cache)</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 font-medium text-gray-900">Key Enablers</td>
+                                <td class="px-6 py-4">Previous PCIe realloc &amp; BIOS optimizations from 31B setup</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">Lessons from the Diffusion Breakthrough</h3>
+                <ul class="list-disc pl-6 space-y-2 mb-8">
+                    <li><strong>Diffusion Unlocks Quality on Constrained Hardware:</strong> The iterative diffusion process allows the model to refine outputs step-by-step, achieving reasoning depth previously requiring much larger models or more VRAM.</li>
+                    <li><strong>Agent-Specific Tuning Matters:</strong> By optimizing the diffusion schedule and context handling for OpenClaw's tool-use patterns, we gained reliability in long-horizon autonomous tasks.</li>
+                    <li><strong>Builds on Prior Work:</strong> The same legacy Asus B85M-E + RTX 5060 Ti node that powered the 31B experiment now flexibly hosts multiple model profiles thanks to robust kernel and memory tweaks.</li>
+                </ul>
+
+                <div class="bg-purple-50 border-l-4 border-purple-500 p-5 rounded-r-lg shadow-sm mb-8">
+                    <h4 class="text-xl font-bold text-purple-900 mb-2">Moving Forward: Agentic Future</h4>
+                    <p class="text-purple-800">
+                        This breakthrough marks a pivotal moment: capable 26B-class agents running locally on modest GPUs, fully integrated with OpenClaw. It paves the way for accessible, private, high-performance personal AI that can truly act on your behalf across digital and physical interfaces. Next: multi-GPU scaling and expanded skill libraries for the agent farm.
+                    </p>
+                </div>
+            </div>
+            
+            <hr class="my-16 border-gray-200">
+        </article>
+
+        <article class="mb-20">
+            <header class="mb-12">
+                <div class="flex items-center space-x-2 text-blue-600 font-semibold text-sm mb-3 uppercase tracking-wider">
                     <span>Hardware Hacking</span>
                     <span>•</span>
                     <span>May 2026</span>
